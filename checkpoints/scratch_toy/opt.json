@@ -1,0 +1,24 @@
+{
+  "data_path": "C:\\Users\\Aratt\\kitti_toy",
+  "model_name": "scratch_toy",
+  "split": "toy",
+  "height": 192,
+  "width": 640,
+  "scales": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "pretrained": true,
+  "num_epochs": 20,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "scheduler_step": 15,
+  "smoothness_weight": 0.001,
+  "num_workers": 0,
+  "log_freq": 100,
+  "save_freq": 5,
+  "log_dir": "logs",
+  "ckpt_dir": "checkpoints"
+}
